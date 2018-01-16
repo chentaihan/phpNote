@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fabdb36-8d2d-4d7c-854f-ff5272437d39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/filterNote.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/util/BufferWriter.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/util/FileHelper.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/util/util.go" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tools.iml" afterPath="$PROJECT_DIR$/tools.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/main_go" afterPath="$PROJECT_DIR$/bin/main_go" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="e#14#30#0" expanded="true" />
               </folding>
@@ -33,11 +28,84 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filterNote.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="filterNote.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filterNote.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="199">
               <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tools.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tools.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-403">
+              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding>
+                <marker date="1516108239000" expanded="true" signature="33759:33801" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="33759:33819" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="33759:33832" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="33759:33847" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="33882:36030" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="33895:36015" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="33949:34244" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="33968:34229" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="34031:34209" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="34071:34175" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="34092:34153" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="34294:34621" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="34313:34606" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="34408:34586" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="34448:34552" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="34469:34530" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="34672:34937" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="34691:34922" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="34724:34902" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="34764:34868" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="34785:34846" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="34980:35286" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="34999:35271" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="35073:35251" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="35113:35217" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="35134:35195" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="35337:35684" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="35356:35669" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="35432:35649" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="35472:35615" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="35493:35593" ph="..." />
+                <marker date="1516108239000" expanded="true" signature="35736:36001" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/util/util.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="e#14#36#0" expanded="true" />
               </folding>
@@ -146,11 +214,11 @@
           <expand>
             <path>
               <item name="Tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tools" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tools" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -214,6 +282,23 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="Tools" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="github.com/chentaihan/Tools" />
+      <directory value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="Tools" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="github.com/chentaihan/Tools" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -233,6 +318,18 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Tools" />
+      <envs />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -275,7 +372,7 @@
       <listeners />
     </configuration>
     <configuration name="main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="Tools" />
+      <module name="tools" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="DIRECTORY" />
@@ -300,12 +397,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516084975442</updated>
       <workItem from="1516084980762" duration="7869000" />
-      <workItem from="1516105337611" duration="2008000" />
+      <workItem from="1516105337611" duration="2318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9877000" />
+    <option name="totallyTimeSpent" value="10187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="6" />
@@ -318,7 +415,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -465,7 +562,7 @@
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="e#14#30#0" expanded="true" />
           </folding>
@@ -491,7 +588,7 @@
     <entry file="file://$PROJECT_DIR$/util/util.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="e#14#36#0" expanded="true" />
           </folding>
@@ -502,6 +599,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-403">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding>
+            <marker date="1516108239000" expanded="true" signature="33759:33801" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="33759:33819" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="33759:33832" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="33759:33847" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="33882:36030" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="33895:36015" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="33949:34244" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="33968:34229" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="34031:34209" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="34071:34175" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="34092:34153" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="34294:34621" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="34313:34606" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="34408:34586" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="34448:34552" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="34469:34530" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="34672:34937" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="34691:34922" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="34724:34902" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="34764:34868" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="34785:34846" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="34980:35286" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="34999:35271" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="35073:35251" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="35113:35217" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="35134:35195" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="35337:35684" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="35356:35669" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="35432:35649" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="35472:35615" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="35493:35593" ph="..." />
+            <marker date="1516108239000" expanded="true" signature="35736:36001" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
