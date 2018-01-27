@@ -1,5 +1,5 @@
 #
-phpParse
+phpNote
 
 PHP类和函数注释大全
 
@@ -14,5 +14,6 @@ PHP类和函数注释大全
 3. 将所有文件中类和函数解析出来
 4. 从http://php.net/manual/zh/中将类和函数注释解析出来
 5. 格式化输出类和函数及所有注释
+6. 输出结果：http://www.cnblogs.com/hlxs/p/8366685.html
 
 

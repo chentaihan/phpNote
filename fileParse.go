@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/chentaihan/tools/util"
+	"github.com/chentaihan/phpNote/util"
 )
 
 type OneFile struct {

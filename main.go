@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/chentaihan/tools/util"
+	"github.com/chentaihan/phpNote/util"
 )
 
 var finishChan chan int

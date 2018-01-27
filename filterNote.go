@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/chentaihan/tools/util"
+	"github.com/chentaihan/phpNote/util"
 	"path"
 )
 

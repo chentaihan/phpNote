@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/chentaihan/tools/util"
+	"github.com/chentaihan/phpNote/util"
 )
 
 const (
 	TR_HEADER_FORMAT  = "<tr><th colspan=\"3\">%s</th></tr>"
-	TR_CONTENT_FORMAT = "<tr><td>%d</td><td>%s</td><td>%s</td></tr>"
+	TR_CONTENT_FORMAT = "<tr><td width=\"120px\">%d</td><td>%s</td><td>%s</td></tr>"
 	FUNNAME_LINK      = "<a href=\"%s\">%s</a>"
 )
 

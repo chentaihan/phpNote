@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/chentaihan/tools/util"
+	"github.com/chentaihan/phpNote/util"
 	"testing"
 )
 
