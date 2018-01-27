@@ -208,21 +208,17 @@ func RecursionDir(dir string){
 	}
 }
 
-func FileTest() {
-	fileName := "test.txt"
-	WriteString(fileName, "write string 12345667890\r\n")
-	WriteBytes(fileName, []byte("write byte 12345667890\r\n"))
-	content, _ := ReadString(fileName)
-	fmt.Println(content)
-	bytes, _ := ReadFile(fileName)
-	fmt.Println(string(bytes))
-
-	fmt.Println(FileSize(fileName))
-	GetFileInfo(fileName)
-
-	// DownloadFile("http://files.cnblogs.com/files/hlxs/LifeRecord.apk", "LifeRecord.apk")
-	// fmt.Println(IsExist("LifeRecord.apk"))
-	// DownloadFile("http://www.baidu.com", "baidu.txt")
-
+func WriteFileAppend(filename string, data []byte, perm os.FileMode) error {
+	f, err := os.OpenFile(filename, os.O_RDWR|os.O_CREATE|os.O_APPEND, perm)
+	if err != nil {
+		return err
+	}
+	n, err := f.Write(data)
+	if err == nil && n < len(data) {
+		err = io.ErrShortWrite
+	}
+	if err1 := f.Close(); err == nil {
+		err = err1
+	}
+	return err
 }
-

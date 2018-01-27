@@ -1,17 +1,56 @@
 package main
 
 import (
-	"os"
+	"fmt"
+	"sort"
+
+	"github.com/chentaihan/tools/util"
 )
 
-func main() {
-	filePath := ""
-	if len(os.Args) >= 2 {
-		filePath = os.Args[1]
+var finishChan chan int
+
+func downLoadFinish() {
+	noteList := GetNoteList()
+	noteArray := make([]*Note, 0, len(noteList.NoteMap))
+	for _, note := range noteList.NoteMap {
+		if note.funNote != "" && note.funName != "" {
+			noteArray = append(noteArray, note)
+		}
 	}
-	if filePath == "" {
-		filePath = "/Users/didi/work/php-class-function/"
+	sort.Sort(NoteSort(noteArray))
+	FormatOutPut(noteArray)
+	finishChan <- 1
+}
+
+func main() {
+	finishChan = make(chan int, 1)
+
+	download := util.NewDownload()
+	download.Start()
+	noteList := NewNoteList()
+	download.RegisterCallBack(noteList.SetFunNote, nil, downLoadFinish)
+	outPutFileList := getFileList(util.GetOutPutPath())
+	for _, filePath := range outPutFileList {
+		oneFile := NewOneFile(filePath)
+		oneFile.Parse()
+		for _, funName := range oneFile.FunList {
+			note := NewNote(funName)
+			noteList.AddNote(note)
+		}
+		for _, funName := range oneFile.MethodList {
+			note := NewNote(funName)
+			noteList.AddNote(note)
+		}
+	}
+	urlList := noteList.getUrlList()
+	download.Add(urlList)
+
+	finishCode := <-finishChan
+	for _, item := range noteList.NoteMap {
+		if item.funNote != "" {
+			fmt.Println(item.funName, item.funNote)
+		}
 	}
 
-	filterNoteByDir(filePath, false)
+	fmt.Println("finishCode=", finishCode)
 }

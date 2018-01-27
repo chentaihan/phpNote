@@ -3,6 +3,7 @@ package util
 import (
 	"io"
 	"os"
+	"path"
 )
 
 func WriteFile(filename string, data []byte, perm os.FileMode) error {
@@ -18,4 +19,25 @@ func WriteFile(filename string, data []byte, perm os.FileMode) error {
 		err = err1
 	}
 	return err
+}
+
+//获取输出目录
+func GetOutPutPath() string {
+	curDir := os.Args[0]
+	outputPath := path.Dir(path.Dir(curDir)) + "/" + OUTPUT_PATH
+	MkDir(outputPath)
+	return outputPath
+}
+
+func GetFormatFile() string {
+	curDir := os.Args[0]
+	outputPath := path.Dir(path.Dir(curDir)) + "/" + FORMAT_FILE
+	return outputPath
+}
+
+
+func GetFormatOutPutFile() string {
+	curDir := os.Args[0]
+	outputPath := path.Dir(path.Dir(curDir)) + "/" + FORMAT_OUTPUT_FILE
+	return outputPath
 }
